@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/img optimiser/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -361,6 +361,12 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+#bloc-8 span {
+    color: #383838;
+}
+#bloc-8 .col-sm-4 {
+    color: black;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -372,7 +378,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: #383838;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -651,7 +657,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #383838!important;
 }
 
 .container {
@@ -704,12 +710,18 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h3 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
+h4 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -736,7 +748,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -753,7 +765,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #FFFFF5;
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,33 +783,33 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f78336;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f78336!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #f78336;
+    color: #383838!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #383838!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #383838!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: white!important;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #c3976c!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -810,19 +822,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/img optimiser/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/img optimiser/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/img optimiser/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/img optimiser/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
