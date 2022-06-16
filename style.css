@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/img optimiser/texture-paper.png");
+    background: url("img/img webP/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -379,6 +379,10 @@ a:hover {
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #383838;
+        font-size: 12px;
+    }
+    .col-sm-4 {
+        font-size: 14px;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -683,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -822,19 +826,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/img optimiser/dots-bg.png");
+    background-image: url("img/img webP/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/img optimiser/lines-h2-bg.png");
+    background-image: url("img/img webP/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/img optimiser/agence-la-panthere.jpg");
+    background-image: url("img/img webP/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/img optimiser/image-de-presentation.jpg");
+    background-image: url("img/img webP/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -999,9 +1003,44 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    #bloc-2 .bloc-md{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #title {
+        width: 490px;
+        height: auto;
+    }
+    #citation {
+        width: 490px;
+    }
+
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
     .bloc-tile-4 .container,
+    .col-sm-6 a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #icone-social {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 1% auto;
+    }
+    .keywords {
+        display: none;
+    }
+    #lien {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        margin-top: 5%;
+    }
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding-left: 0;
@@ -1037,6 +1076,12 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    #envoyer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2% auto;
     }
 }
 
