@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/imgWebP/texture-paper.webp");
     background-size: 280px 280px;
+    z-index: -100;
 }
 
 .b-parallax {
@@ -367,7 +368,12 @@ a:hover {
 #bloc-8 .col-sm-4 {
     color: black;
 }
-
+#titlepg2 {
+    color: #383838!important;
+}
+#ppg2 {
+    color: #383838!important;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -827,6 +833,7 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/imgWebP/dots-bg.webp");
+    z-index: -100;
 }
 
 .bg-lines-h2-bg {
