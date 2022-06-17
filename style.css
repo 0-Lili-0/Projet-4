@@ -360,7 +360,7 @@ a:hover {
 .nav-invert .navbar-brand {
     float: right;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 #bloc-8 span {
     color: #383838;
