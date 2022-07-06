@@ -4241,27 +4241,27 @@ input[type=submit].btn-block {
     opacity: 0;
     -webkit-transition: opacity .15s linear;
     -o-transition: opacity .15s linear;
-    transition: opacity .15s linear
+    transition: opacity .15s linear;
 }
 
 .fade.in {
-    opacity: 1
+    opacity: 1;
 }
 
 .collapse {
-    display: none
+    display: none;
 }
 
 .collapse.in {
-    display: block
+    display: block;
 }
 
 tr.collapse.in {
-    display: table-row
+    display: table-row;
 }
 
 tbody.collapse.in {
-    display: table-row-group
+    display: table-row-group;
 }
 
 .collapsing {
@@ -7682,7 +7682,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
@@ -7771,7 +7771,7 @@ button.close {
 .row:after,
 .row:before {
     display: table;
-    content: " "
+    content: "";
 }
 
 .btn-group-vertical>.btn-group:after,
